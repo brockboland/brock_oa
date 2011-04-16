@@ -1,0 +1,14 @@
+name = "Custom Open Atrium theme"
+description = "A gingko sub-theme for use on clients.brockboland.com"
+version = "0.1"
+core = "6.x"
+atrium = "1.x"
+engine = "phptemplate"
+base theme = "ginkgo"
+
+stylesheets[screen][] = "scene.css"
+
+admin[admin menu] = 1
+admin[admin inline] = 0
+
+features[] = ""
